@@ -1,5 +1,12 @@
 # Jarkom-Modul-4-C12-2021
 
+### C12
+Daffa Amanullah Setyawan - 05111940000071\
+Satrio Hanif Wicaksono - 05111940000103\
+Shidqi Dhaifullah - 05111940000108
+
+### PRAKTIKUM MODUL 4
+
 ## VLSM
 ### Pemetaan Subnet
 Pemetaan subnet dilakukan dengan cara mengelompokkan setiap PC yang terhubung ke router. Berikut hasil pemetaan subnet A:<br>
@@ -434,48 +441,48 @@ gateway 10.20.0.1<br>
 3. Konfigurasi Routing<br>
    - Foosha<br>
 
-route add -net 10.21.0.0 netmask 255.255.248.0 gw 10.21.64.2
-route add -net 10.21.8.0 netmask 255.255.255.128 gw 10.21.64.2
-route add -net 10.21.16.0 netmask 255.255.255.252 gw 10.21.64.2
-route add -net 10.21.32.0 netmask 255.255.252.0 gw 10.21.64.2
-route add -net 10.20.36.0 netmask 255.255.252.0 gw 10.20.64.2
-route add -net 10.20.8.0 netmask 255.255.255.252 gw 10.20.64.2
-route add -net 10.20.32.0 netmask 255.255.254.0 gw 10.20.64.2
-route add -net 10.20.34.0 netmask 255.255.255.240 gw 10.20.64.2
-route add -net 10.20.4.0 netmask 255.255.255.0 gw 10.20.64.2
-route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.64.2
-route add -net 10.20.16.0 netmask 255.255.254.0 gw 10.20.64.2
+route add -net 10.21.0.0 netmask 255.255.248.0 gw 10.21.64.2<br>
+route add -net 10.21.8.0 netmask 255.255.255.128 gw 10.21.64.2<br>
+route add -net 10.21.16.0 netmask 255.255.255.252 gw 10.21.64.2<br>
+route add -net 10.21.32.0 netmask 255.255.252.0 gw 10.21.64.2<br>
+route add -net 10.20.36.0 netmask 255.255.252.0 gw 10.20.64.2<br>
+route add -net 10.20.8.0 netmask 255.255.255.252 gw 10.20.64.2<br>
+route add -net 10.20.32.0 netmask 255.255.254.0 gw 10.20.64.2<br>
+route add -net 10.20.34.0 netmask 255.255.255.240 gw 10.20.64.2<br>
+route add -net 10.20.4.0 netmask 255.255.255.0 gw 10.20.64.2<br>
+route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.64.2<br>
+route add -net 10.20.16.0 netmask 255.255.254.0 gw 10.20.64.2<br>
 
    - Water7<br>
 
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.21.64.1
-route add -net 10.21.0.0 netmask 255.255.248.0 gw 10.21.16.2
-route add -net 10.21.8.0 netmask 255.255.255.128 gw 10.21.16.2
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.21.64.1<br>
+route add -net 10.21.0.0 netmask 255.255.248.0 gw 10.21.16.2<br>
+route add -net 10.21.8.0 netmask 255.255.255.128 gw 10.21.16.2<br>
 
    - Pucci<br>
 
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.21.16.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.21.16.1<br>
 
    - Guanhao<br>
 
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.64.1
-route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.8.2
-route add -net 10.20.4.0 netmask 255.255.255.0 gw 10.20.8.2
-route add -net 10.20.16.0 netmask 255.255.254.0 gw 10.20.8.2
-route add -net 10.20.34.0 netmask 255.255.255.240 gw 10.20.32.2
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.64.1<br>
+route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.8.2<br>
+route add -net 10.20.4.0 netmask 255.255.255.0 gw 10.20.8.2<br>
+route add -net 10.20.16.0 netmask 255.255.254.0 gw 10.20.8.2<br>
+route add -net 10.20.34.0 netmask 255.255.255.240 gw 10.20.32.2<br>
 
    - Alabasta<br>
 
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.32.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.32.1<br>
 
    - Oimo<br>
 
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.8.1
-route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.4.3
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.8.1<br>
+route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.4.3<br>
 
    - Seastone<br>
 
-route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.4.1
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.4.1<br>
 
 
 4. Test Ping<br>
