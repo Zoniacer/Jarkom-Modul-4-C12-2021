@@ -74,3 +74,42 @@ cpt<br>
    - Seastone
 4. Test Ping<br>
 pingtest<br>
+
+
+## CIDR
+Perhitungan pada teknik CIDR juga didasarkan pada jumlah komputer/ host yang ada di dalam subnet. Tetapi cara mendapatkan subnet besar tidak sama dengan VLSM. Penerapan teknik CIDR dapat dilakukan dengan langkah sebagai berikut.
+
+### Langkah Pengerjaan
+1. Pembuatan Topologi pada GNS3<br>
+![Screenshot 2021-11-27 184706](https://user-images.githubusercontent.com/73422724/143680016-3d9630a9-7493-4418-b24a-9062ce32c4a8.png)
+
+2. Konfigurasi Interface<br>
+   - Foosha
+   - Water7
+   - Pucci
+   - Guanhao
+   - Alabasta
+   - Oimo
+   - Seastone
+   - Jipangu
+   - Courtyard
+   - Calmbelt
+   - Cipher
+   - Blueno
+   - Doriki
+   - Jabra
+   - Maingate
+   - Jorge
+   - Fukurou
+   - Enieslobby
+   - Elena
+3. Kongigurasi Routing<br>
+   - Foosha
+   - Water7
+   - Pucci
+   - Guanhao
+   - Alabasta
+   - Oimo
+   - Seastone
+4. Test Ping<br>
+pingtest<br>
