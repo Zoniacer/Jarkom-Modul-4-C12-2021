@@ -433,12 +433,49 @@ gateway 10.20.0.1<br>
 
 3. Konfigurasi Routing<br>
    - Foosha<br>
+
+route add -net 10.21.0.0 netmask 255.255.248.0 gw 10.21.64.2
+route add -net 10.21.8.0 netmask 255.255.255.128 gw 10.21.64.2
+route add -net 10.21.16.0 netmask 255.255.255.252 gw 10.21.64.2
+route add -net 10.21.32.0 netmask 255.255.252.0 gw 10.21.64.2
+route add -net 10.20.36.0 netmask 255.255.252.0 gw 10.20.64.2
+route add -net 10.20.8.0 netmask 255.255.255.252 gw 10.20.64.2
+route add -net 10.20.32.0 netmask 255.255.254.0 gw 10.20.64.2
+route add -net 10.20.34.0 netmask 255.255.255.240 gw 10.20.64.2
+route add -net 10.20.4.0 netmask 255.255.255.0 gw 10.20.64.2
+route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.64.2
+route add -net 10.20.16.0 netmask 255.255.254.0 gw 10.20.64.2
+
    - Water7<br>
+
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.21.64.1
+route add -net 10.21.0.0 netmask 255.255.248.0 gw 10.21.16.2
+route add -net 10.21.8.0 netmask 255.255.255.128 gw 10.21.16.2
+
    - Pucci<br>
+
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.21.16.1
+
    - Guanhao<br>
+
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.64.1
+route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.8.2
+route add -net 10.20.4.0 netmask 255.255.255.0 gw 10.20.8.2
+route add -net 10.20.16.0 netmask 255.255.254.0 gw 10.20.8.2
+route add -net 10.20.34.0 netmask 255.255.255.240 gw 10.20.32.2
+
    - Alabasta<br>
+
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.32.1
+
    - Oimo<br>
+
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.8.1
+route add -net 10.20.0.0 netmask 255.255.252.0 gw 10.20.4.3
+
    - Seastone<br>
+
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.20.4.1
 
 
 4. Test Ping<br>
