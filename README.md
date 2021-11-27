@@ -187,24 +187,231 @@ Dibentuk menjadi tabel sebagai berikut.
 
 2. Konfigurasi Interface<br>
    - Foosha<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+address 10.21.128.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.21.64.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.20.64.1
+netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+address 10.20.128.1
+netmask 255.255.255.252
+
    - Water7<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.21.64.2
+netmask 255.255.255.252
+gateway 10.21.64.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.32.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.21.16.1
+netmask 255.255.255.252
+
    - Pucci<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.21.16.2
+netmask 255.255.255.252
+gateway 10.21.16.1
+
+auto eth1
+iface eth1 inet static
+address 10.21.8.1
+netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+address 10.21.0.1
+netmask 255.255.248.0
+
    - Guanhao<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.20.64.2
+netmask 255.255.255.252
+gateway 10.20.64.1
+
+auto eth1
+iface eth1 inet static
+address 10.20.36.1
+netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+address 10.20.8.1
+netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+address 10.20.32.1
+netmask 255.255.254.0
+
    - Alabasta<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.20.32.2
+netmask 255.255.254.0
+gateway 10.20.32.1
+
+auto eth1
+iface eth1 inet static
+address 10.20.34.1
+netmask 255.255.255.240
+
    - Oimo<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.20.8.2
+netmask 255.255.255.252
+gateway 10.20.8.1
+
+auto eth1
+iface eth1 inet static
+address 10.20.4.1
+netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+address 10.20.16.1
+netmask 255.255.255.252
+
    - Seastone<br>
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address 10.20.4.3
+netmask 255.255.255.0
+gateway 10.20.4.1
+
+auto eth1
+iface eth1 inet static
+address 10.20.0.1
+netmask 255.255.252.0
+
    - Jipangu<br>
+auto eth0
+iface eth0 inet static
+address 10.21.8.2
+netmask 255.255.255.128
+gateway 10.21.8.1
+
    - Courtyard<br>
+auto eth0
+iface eth0 inet static
+address 10.21.0.3
+netmask 255.255.248.0
+gateway 10.21.0.1
+
    - Calmbelt<br>
+auto eth0
+iface eth0 inet static
+address 10.21.0.2
+netmask 255.255.248.0
+gateway 10.21.0.1
+
    - Cipher<br>
+auto eth0
+iface eth0 inet static
+address 10.21.32.2
+netmask 255.255.252.0
+gateway 10.21.32.1
+
    - Blueno<br>
+auto eth0
+iface eth0 inet static
+address 10.21.128.2
+netmask 255.255.252.0
+gateway 10.21.128.1
+
    - Doriki<br>
+auto eth0
+iface eth0 inet static
+address 10.20.128.2
+netmask 255.255.255.252
+gateway 10.20.128.1
+
    - Jabra<br>
+auto eth0
+iface eth0 inet static
+address 10.20.36.2
+netmask 255.255.252.0
+gateway 10.20.36.1
+
    - Maingate<br>
+auto eth0
+iface eth0 inet static
+address 10.20.32.3
+netmask 255.255.254.0
+gateway 10.20.32.1
+
    - Jorge<br>
+auto eth0
+iface eth0 inet static
+address 10.20.34.2
+netmask 255.255.255.240
+gateway 10.20.34.1
+
    - Fukurou<br>
+auto eth0
+iface eth0 inet static
+address 10.20.16.2
+netmask 255.255.254.0
+gateway 10.20.16.1
+
    - Enieslobby<br>
+auto eth0
+iface eth0 inet static
+address 10.20.4.2
+netmask 255.255.255.0
+gateway 10.20.4.1
+
    - Elena<br>
+auto eth0
+iface eth0 inet static
+address 10.20.0.2
+netmask 255.255.252.0
+gateway 10.20.0.1
+
 3. Konfigurasi Routing<br>
    - Foosha<br>
    - Water7<br>
