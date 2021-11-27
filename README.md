@@ -3,7 +3,7 @@
 ## VLSM
 ### Pemetaan Subnet
 Pemetaan subnet dilakukan dengan cara mengelompokkan setiap PC yang terhubung ke router. Berikut hasil pemetaan subnet A:<br>
-vlsm<br>
+![4-vlsm](https://user-images.githubusercontent.com/81344394/143682439-fa963f2a-c0c9-4fc1-a436-80d296485b73.png)<br>
 |Subnet|Subnet Mask|Length|Jumlah IP|
 |---|---|---|---|
 |A1|255.255.255.128|/25|101|
@@ -23,7 +23,7 @@ vlsm<br>
 |A15|255.255.255.252|/30|2|
 ### Perhitungan IP
 Dengan menghitung jumlah total IP yang diperlukan, maka didaptkan bahwa perhitungan VLSM dimulai dari subnet /19. Hasil perhitungan IP sebagai berikut:<br>
-vlsmtree<br>
+![4-vlsmtree](https://user-images.githubusercontent.com/81344394/143682453-f7c4537e-0f18-41bc-b86d-13c1ceb095d9.png)<br>
 |Subnet|IP Address|Subnet Mask|Length|Jumlah IP|
 |---|---|---|---|---|
 |A1|10.20.0.128|255.255.255.128|/25|101|
@@ -43,37 +43,80 @@ vlsmtree<br>
 |A15|10.20.0.36|255.255.255.252|/30|2|
 ### Langkah Pengerjaan
 1. Pembuatan Topologi pada CPT<br>
-cpt<br>
+![4-cpt](https://user-images.githubusercontent.com/81344394/143682466-369c6f14-8c7b-41c7-bc26-ea41ea76d018.png)<br>
 2. Konfigurasi Interface<br>
    - Foosha<br>
+![4-foosha1](https://user-images.githubusercontent.com/81344394/143682477-ea00243e-7963-43fe-89f1-980808fa8606.png)
+![4-foosha2](https://user-images.githubusercontent.com/81344394/143682478-34861350-5799-45b6-a3fd-da34e9bb6c7b.png)
+![4-foosha3](https://user-images.githubusercontent.com/81344394/143682479-8d7ca89b-9676-405c-a27b-ab22c2edfa95.png)
+![4-foosha4](https://user-images.githubusercontent.com/81344394/143682481-419332a4-cff2-4c19-b82a-8170379dc04d.png)
    - Water7<br>
+![4-water71](https://user-images.githubusercontent.com/81344394/143682499-4996fc7c-be0e-4d82-b0fb-f92a1584c76a.png)
+![4-water72](https://user-images.githubusercontent.com/81344394/143682500-23bdfb53-2c10-4746-9a9c-d2fbf5a5fe3f.png)
+![4-water73](https://user-images.githubusercontent.com/81344394/143682501-a7608e77-869f-4479-88de-e6bf072775de.png)
    - Pucci<br>
+![4-pucci1](https://user-images.githubusercontent.com/81344394/143682512-21203aca-22b9-4147-b499-90fdb143af18.png)
+![4-pucci2](https://user-images.githubusercontent.com/81344394/143682513-b308ce25-736a-4a42-abb7-ccb5d71f9400.png)
+![4-pucci3](https://user-images.githubusercontent.com/81344394/143682515-467d4b10-43f0-41ca-865a-e342055e7f30.png)
    - Guanhao<br>
+![4-guanhao1](https://user-images.githubusercontent.com/81344394/143682528-3babcb2f-0c46-4a1a-844e-003cbaad06c5.png)
+![4-guanhao2](https://user-images.githubusercontent.com/81344394/143682529-e6d06a19-b9d7-4290-859c-4b1e376ceeca.png)
+![4-guanhao3](https://user-images.githubusercontent.com/81344394/143682531-8c543537-402c-478c-802f-6bd69638a62b.png)
+![4-guanhao4](https://user-images.githubusercontent.com/81344394/143682532-21ad166b-41c8-4ef4-bb09-22789dbb515b.png)
    - Alabasta<br>
+![4-alabasta1](https://user-images.githubusercontent.com/81344394/143682540-6c88c670-7a6b-4e7b-a800-e7f67b4f66bb.png)
+![4-alabasta2](https://user-images.githubusercontent.com/81344394/143682542-89307fff-52be-4266-8e29-0d9a343cf767.png)
    - Oimo<br>
+![4-oimo1](https://user-images.githubusercontent.com/81344394/143682548-75e521ee-fb30-4af2-837e-b05b80402b6f.png)
+![4-oimo2](https://user-images.githubusercontent.com/81344394/143682549-33001f3f-acf4-454d-9c04-cdaa76438ed8.png)
+![4-oimo3](https://user-images.githubusercontent.com/81344394/143682551-50629a96-db85-4e46-b256-dd63628d4875.png)
    - Seastone<br>
+![4-seastone1](https://user-images.githubusercontent.com/81344394/143682555-f15e385d-9909-4800-af07-53996d407f59.png)
+![4-seastone2](https://user-images.githubusercontent.com/81344394/143682556-93cb5bce-ce34-4e2e-a3ef-f6526579e59e.png)
    - Jipangu<br>
+![4-jipangu](https://user-images.githubusercontent.com/81344394/143682559-4a720b15-e0dd-4e06-b118-ff2b298c7692.png)
    - Courtyard<br>
+![4-courtyard](https://user-images.githubusercontent.com/81344394/143682568-83341934-deb2-4f38-beed-25cf75682040.png)
    - Calmbelt<br>
+![4-calmbelt](https://user-images.githubusercontent.com/81344394/143682581-65d6b624-8511-4d47-8b33-2485312643b8.png)
    - Cipher<br>
+![4-cipher](https://user-images.githubusercontent.com/81344394/143682584-d1c6bc9d-0276-4bff-9660-188f943c176f.png)
    - Blueno<br>
+ ![4-blueno](https://user-images.githubusercontent.com/81344394/143682591-22b479c2-b4c4-4965-ad1a-a9428c425ba6.png)
    - Doriki<br>
+![4-doriki](https://user-images.githubusercontent.com/81344394/143682603-eac17f0e-866c-46e2-bcd8-c0b7149993bb.png)
    - Jabra<br>
+![4-jabra](https://user-images.githubusercontent.com/81344394/143682611-9e60eb60-54a9-4cd9-a594-4a0edb6aade8.png)
    - Maingate<br>
+![4-maingate](https://user-images.githubusercontent.com/81344394/143682617-3d56bc8d-be8f-4a80-a28b-497746904456.png)
    - Jorge<br>
+![4-jorge](https://user-images.githubusercontent.com/81344394/143682622-e9b5efab-a7dc-4e51-b98e-aafb0cafc783.png)
    - Fukurou<br>
+![4-fukurou](https://user-images.githubusercontent.com/81344394/143682626-1b2db219-56eb-4f6a-9549-f595ab5a47d9.png)
    - Enieslobby<br>
+![4-enieslobby](https://user-images.githubusercontent.com/81344394/143682627-469da078-e0c2-464c-8f94-d36433d80123.png)
    - Elena<br>
+![4-elena](https://user-images.githubusercontent.com/81344394/143682630-4d1dfe80-dba7-46eb-907f-272754f3ce90.png)
 3. Konfigurasi Routing<br>
    - Foosha<br>
+![4-fooshar1](https://user-images.githubusercontent.com/81344394/143682665-f135ca32-9a25-457e-b430-216b9be7a13f.png)
+![4-fooshar2](https://user-images.githubusercontent.com/81344394/143682667-ae328707-0c8e-409c-98e5-a0525b23cdee.png)
+![4-fooshar3](https://user-images.githubusercontent.com/81344394/143682668-78075b2a-60a0-4ac2-8181-bdb81958d30e.png)
    - Water7<br>
+![4-water7r](https://user-images.githubusercontent.com/81344394/143682671-c6bda48b-82d3-4ac1-992e-604fc5c9b226.png)
    - Pucci<br>
+![4-puccir](https://user-images.githubusercontent.com/81344394/143682675-772df000-40d1-44f3-8dde-8543e67859d9.png)
    - Guanhao<br>
+![4-guanhaor1](https://user-images.githubusercontent.com/81344394/143682677-4db6d703-de12-4358-b3f1-04a495ddc9aa.png)
+![4-guanhaor2](https://user-images.githubusercontent.com/81344394/143682678-7713ff03-5717-470a-8a0b-e360c84e2228.png)
    - Alabasta<br>
+![4-alabastar](https://user-images.githubusercontent.com/81344394/143682680-0226f18a-d103-4d6f-9b96-06c41f142f48.png)
    - Oimo<br>
+![4-oimor](https://user-images.githubusercontent.com/81344394/143682681-b9ca7f14-84e9-4aeb-bbb5-ac9a075dec70.png)
    - Seastone<br>
+![4-seastoner](https://user-images.githubusercontent.com/81344394/143682684-bebb9e89-7629-45cd-bea4-a54fc0beb6d9.png)
 4. Test Ping<br>
-pingtest<br>
+![4-pingtest](https://user-images.githubusercontent.com/81344394/143682686-9bc2bf77-0b08-49eb-829e-2c91cf45f75a.png)<br>
 
 
 ## CIDR
