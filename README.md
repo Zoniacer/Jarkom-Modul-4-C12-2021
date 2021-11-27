@@ -214,4 +214,19 @@ Dibentuk menjadi tabel sebagai berikut.
    - Oimo<br>
    - Seastone<br>
 4. Test Ping<br>
-pingtest<br>
+- Sebelum testing lakukan perintah berikut pada Foosha
+iptables -t nat -A POSTROUTING  -o eth0 -j MASQUERADE -s 10.20.0.0/15
+
+- Lalu, lakukan perintah berikut untuk semua pc yang terhubung
+echo nameserver 192.168.122.1 > /etc/resolv.conf
+
+- Setelah itu, testing dengan ping ke suatu situs atau yang IP yang terhubung dimisalkan sebagai berikut.<br>
+
+Elena --> ping its.ac.id, ping google.com, ping my.its.ac.id
+![elena Screenshot 2021-11-27 165750](https://user-images.githubusercontent.com/73422724/143683077-75f389b0-98b8-48bc-8e2a-cfd58abc9936.png)
+
+Elena --> ping its.ac.id, ping google.com, ping my.its.ac.id
+![enieslobby Screenshot 2021-11-27 162105](https://user-images.githubusercontent.com/73422724/143683080-5a2d76b0-ca3e-4434-90a6-b155bc8d2e85.png)
+
+Elena --> ping its.ac.id, ping google.com, ping my.its.ac.id
+![Blueno Screenshot 2021-11-27 155350](https://user-images.githubusercontent.com/73422724/143683088-c7d51979-abbb-45d7-acb1-d17f6160bdd7.png)
